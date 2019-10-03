@@ -1,7 +1,8 @@
 const today = new Date();
+
 const initialMonth = {
-  startMonth : today.Month,
-  endMonth : (today.Month + 6) % 12,
+  startMonth : today.getMonth(),
+  endMonth : (today.getMonth() + 6) % 12,
 }
 const Months = (state= initialMonth, action) => {
   switch (action.type) {

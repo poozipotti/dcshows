@@ -1,14 +1,16 @@
 import React from 'react';
-import Timeline from './TimeLine/Timeline';
-import TrackShow from '../containers/TrackShow';
 import './App.css';
+import TrackedShows from '../containers/TrackedShows';
+import UntrackedShows from '../containers/UntrackedShows';
+import TimeFilter from '../containers/TimeFilter';
 
 function App() {
   return (
     <div className="App">
       <h1>Shows</h1>
-      <Timeline/>
-      <TrackShow/>
+      <TimeFilter/>
+      <TrackedShows/>
+      <UntrackedShows/>
     </div>
   );
 }

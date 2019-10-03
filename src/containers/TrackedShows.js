@@ -1,17 +1,18 @@
 import { connect } from 'react-redux'
 import { toggleShow } from '../actions'
-import Billboard from '../components/Billboard/Billboard'
+import ShowList from '../components/ShowList/ShowList'
 
 
 const mapStateToProps = state => ({
-  shows: state.shows
+  shows: state.shows.filter((show) => show.tracked === true),
+  title: 'Tracked' 
 })
 
 const mapDispatchToProps = dispatch => ({
-  toggleShow: headliner => dispatch(toggleShow(headliner))
+  onClick: headliner => dispatch(toggleShow(headliner))
 })
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Billboard)
+)(ShowList)
