@@ -8,7 +8,7 @@ class Billboard extends React.Component {
       <div>
         {this.props.shows &&
           this.props.shows.map(show => {
-            return <ShowListing {...show} />;
+            return <ShowListing key={show.headliner} {...show} toggleShow={() =>this.props.toggleShow(show.headliner)} />;
           })}
       </div>
     );

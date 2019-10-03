@@ -7,20 +7,22 @@ class Timeline extends React.Component {
   render() {
     return (
       <div className="timelineContainer">
-        {this.props.dates && this.props.dates.map((date, index) => {
-          return (
-            <div>
-              <TimelineNode
-                active={
-                  date.month == this.props.startMonth ||
-                  date.month == this.props.endMonth
-                }
-                month={date.month}
-                day={date.day}
-              />
-            </div>
-          );
-        })}
+        {this.props.dates &&
+          this.props.dates.map((date, index) => {
+            return (
+              <div>
+                <TimelineNode
+                  active={
+                    date.month === this.props.startMonth ||
+                    date.month === this.props.endMonth
+                  }
+                  month={date.month}
+                  day={date.day}
+                />
+                {index <= this.props.dates.size() ? <Connector /> : null }
+              </div>
+            );
+          })}
       </div>
     );
   }

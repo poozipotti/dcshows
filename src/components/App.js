@@ -1,6 +1,6 @@
 import React from 'react';
 import Timeline from './TimeLine/Timeline';
-import Billboard from './Billboard/Billboard';
+import TrackShow from '../containers/TrackShow';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Shows</h1>
       <Timeline/>
-      <Billboard/>
+      <TrackShow/>
     </div>
   );
 }

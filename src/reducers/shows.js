@@ -1,13 +1,12 @@
-
 const initialShows = require('./initialShowState.json');
 const shows = (state = initialShows, action) => {
   switch (action.type) {
-    case 'TOGGLE_TRACK_SHOWS':
+    case 'TOGGLE_SHOW':
       return state.map((show) => {
-        if(show.id === action.id){
+        if(show.headliner === action.headliner){
           return{
             ...show,
-            tracked = !show.tracked
+            tracked : !show.tracked
           };
         }
         return show;
