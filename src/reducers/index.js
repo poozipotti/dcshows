@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
 import shows from './shows'
-import months from './months'
+import dates from './dates'
 
 export default combineReducers({
   shows,
-  months
+  dates
 })

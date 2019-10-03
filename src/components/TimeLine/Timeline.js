@@ -7,19 +7,19 @@ class Timeline extends React.Component {
   render() {
     return (
       <div className="timelineContainer">
-        {this.props.months &&
-          this.props.months.map((date, index) => {
+        {this.props.dates &&
+          this.props.dates.map((date, index) => {
             return (
               <div className="timelineContainer">
                 <TimelineNode 
-                  key = {date.month}
+                  key = {date.month +'-'+ date.year}
                   active={
-                    date.month === this.props.startMonth ||
-                    date.month === this.props.endMonth
+                    (date.month === this.props.startDate.month && date.year === this.props.startDate.year) ||
+                    (date.month === this.props.endDate.month && date.year === this.props.endDate.year)
                   }
-                  month={date.month}
+                  date={date}
                 />
-                {index < this.props.months.length-1 ? <TimelineConnector key={date.month*9999}/> : null }
+                {index < this.props.dates.length-1 ? <TimelineConnector key={date.month +'-' + date.year + '-' + Math.random()}/> : null }
               </div>
             );
           })}

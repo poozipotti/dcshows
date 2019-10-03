@@ -6,6 +6,7 @@
     "location": "powder mill house",
     "month": 10,
     "day": 1,
+    "year": 2019,
     "tracked": false
   },
   {
@@ -15,6 +16,7 @@
     "location": "powder mill house",
     "month": 10,
     "day": 1,
+    "year": 2020,
     "tracked": false
   }
 ]

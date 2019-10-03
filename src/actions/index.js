@@ -1,12 +1,12 @@
 
-export const setVisibilityFilter = month => ({
-  type: 'CHANGE_START_MONTH',
-  month
+export const setVisibilityFilter = date => ({
+  type: 'CHANGE_START_DATE',
+  date
 })
 
-export const toggleTodo = month => ({
-  type: 'CHANGE_END_MONTH',
-  month
+export const toggleTodo = date => ({
+  type: 'CHANGE_END_DATE',
+  date
 })
 
 export const toggleShow = headliner => (

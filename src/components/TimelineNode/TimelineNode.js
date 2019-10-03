@@ -19,7 +19,7 @@ class TimelineNode extends React.Component {
     return (
       <div className="nodeContainer">
         <div className={this.props.active ? "nodeSelected" : "node"}></div>
-        <span className="nodeLabel">{monthMap[this.props.month]}</span>
+        <span className="nodeLabel">{monthMap[this.props.date.month]}</span>
       </div>
     );
   }
