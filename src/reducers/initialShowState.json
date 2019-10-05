@@ -1,21 +1,136 @@
 [
   {
-    "headliner": "George",
-    "otherBands": "Matt,Dennis,Linc",
-    "description": "these guys are real cool",
-    "location": "powder mill house",
+    "headliner": "Xiu Xiu",
+    "otherBands": "Replicant Eyes,Coven",
+    "location": "The Black Cat",
     "month": 10,
+    "day": 4,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Kero Kero Bonito",
+    "otherBands": "Negative Gemini",
+    "location": "club, washington",
+    "month": 10,
+    "day": 8,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "(Sandy) Alex G",
+    "otherBands": "ARTHUR, Tomberlin",
+    "location": "Black Cat",
+    "month": 10,
+    "day": 17,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Sleeter-Kinny",
+    "otherBands": "Shamir",
+    "location": "The Anthem, Washington",
+    "month": 10,
+    "day": 25,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Angel Olsen",
+    "otherBands": "Vagabon",
+    "location": "Lincoln Theater, Washington",
+    "month": 11,
     "day": 1,
     "year": 2019,
     "tracked": false
   },
   {
-    "headliner": "Dennis",
-    "otherBands": "George,Matt,Linc",
-    "description": "these guys are real cool",
-    "location": "powder mill house",
-    "month": 10,
-    "day": 1,
+    "headliner": "Girlpool",
+    "otherBands": "",
+    "location": "Ottabar, Baltimore",
+    "month": 11,
+    "day": 5,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Adult Mom",
+    "otherBands": "",
+    "location": "Songbyrd, Washington",
+    "month": 11,
+    "day": 6,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Block Head",
+    "otherBands": "Eliot Lipp",
+    "location": "U Street Music Hall, Washington",
+    "month": 11,
+    "day": 7,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Big Thief",
+    "otherBands": "Palehound",
+    "location": "Club, Washington",
+    "month": 11,
+    "day": 10,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "McCafferty",
+    "otherBands": "Carasoul Kings",
+    "location": "Chameleon Club, Lancaster",
+    "month": 11,
+    "day": 22,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Alex Cameron",
+    "otherBands": "",
+    "location": "Club, Washington",
+    "month": 11,
+    "day": 23,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "BROCKHAMPTON",
+    "otherBands": "slowthai,100 gecs",
+    "location": "The Anthem, Washington",
+    "month": 11,
+    "day": 25,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Devendra Banheart",
+    "otherBands": "Black Belt Eagle Scout",
+    "location": "Club, Washington",
+    "month": 12,
+    "day": 7,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "GoGo Bordello",
+    "otherBands": "",
+    "location": "Club, Washington",
+    "month": 12,
+    "day": 30,
+    "year": 2019,
+    "tracked": false
+  },
+  {
+    "headliner": "Jamilla Woods",
+    "otherBands": "Nate Marshall",
+    "location": "The Music Center at Strathmere,North Bethesda",
+    "month": 1,
+    "day": 24,
     "year": 2020,
     "tracked": false
   }

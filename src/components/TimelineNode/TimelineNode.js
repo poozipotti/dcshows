@@ -16,9 +16,13 @@ const monthMap = {
 }
 class TimelineNode extends React.Component {
   render() {
+    let nodeClass = this.props.active ? "nodeSelected" : "node";
+    if(this.props.selectable){
+      nodeClass += " selectAvailible";
+    }
     return (
-      <div className="nodeContainer">
-        <div className={this.props.active ? "nodeSelected" : "node"}></div>
+      <div className={"nodeContainer"} onClick={this.props.onClick}>
+        <div className={nodeClass}></div>
         <span className="nodeLabel">{monthMap[this.props.date.month]}</span>
       </div>
     );

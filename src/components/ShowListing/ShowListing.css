@@ -1,0 +1,11 @@
+.ShowListing{
+  text-align: center;
+  width: 50%;
+  margin:auto;
+}
+.ShowListing h2{
+  margin: 0;
+}
+.ShowListing p{
+  margin: 0;
+}

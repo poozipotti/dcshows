@@ -17,9 +17,9 @@
   height:14px;
   z-index: 100;
 }
-.node:hover{
+.selectAvailible:hover{
   border: 5px solid #fdfcfc ;
-  background-color: #0F3E36;
+  background-color: #80a39d;
   border-radius: 100%;
   width:14px;
   height:14px;

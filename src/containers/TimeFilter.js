@@ -1,5 +1,6 @@
 import { connect } from "react-redux";
 import TimeLine from "../components/TimeLine/Timeline";
+import { selectDate,changeDate } from '../actions'
 
 const getRequiredDates = state => {
   let showDates = state.shows
@@ -10,7 +11,7 @@ const getRequiredDates = state => {
       };
     })
     .sort((a, b) => {
-      return parseInt(a.year + "" + a.month) > parseInt(b.year + "" + b.month)
+      return parseInt(a.year + "" + a.month.toString().padStart(2,'0')) > parseInt(b.year + "" + b.month.toString().padStart(2,'0'))
         ? 1
         : -1;
     });
@@ -44,7 +45,10 @@ const mapStateToProps = state => ({
   ...state.dates
 });
 
-const mapDispatchToProps = dispatch => ({});
+const mapDispatchToProps = dispatch => ({
+  onClickSelect: date => dispatch(selectDate(date)),
+  onClickConfirm: date => dispatch(changeDate(date))
+});
 
 export default connect(
   mapStateToProps,

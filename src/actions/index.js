@@ -1,17 +1,13 @@
-
-export const setVisibilityFilter = date => ({
-  type: 'CHANGE_START_DATE',
+export const changeDate = date => ({
+  type: "CHANGE_DATE",
   date
-})
+});
 
-export const toggleTodo = date => ({
-  type: 'CHANGE_END_DATE',
-  date
-})
-
-export const toggleShow = headliner => (
-  {
-  type: 'TOGGLE_SHOW',
+export const toggleShow = headliner => ({
+  type: "TOGGLE_SHOW",
   headliner
-  }
-)
+});
+export const selectDate = date => ({
+  type: "SELECT_DATE",
+  date
+});

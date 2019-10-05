@@ -2,13 +2,12 @@ import React from 'react';
 import './App.css';
 import TrackedShows from '../containers/TrackedShows';
 import UntrackedShows from '../containers/UntrackedShows';
-import TimeFilter from '../containers/TimeFilter';
+import Navbar from '../components/NavBar/NavBar'
 
 function App() {
   return (
     <div className="App">
-      <h1>Shows</h1>
-      <TimeFilter/>
+      <Navbar/>
       <TrackedShows/>
       <UntrackedShows/>
     </div>

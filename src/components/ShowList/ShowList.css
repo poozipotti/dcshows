@@ -1,7 +1,7 @@
-.ShowListContainer{
-  text-align: center;
-  width: 50%;
+.horizontalRule{
+  border-radius: 50%;
+  height:1px;
+  width:65%;
+  background-color: #fdfcfc;
   margin:auto;
-  line-height: 1em;
-  margin-top: 50px;
 }
