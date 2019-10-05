@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/poozipotti/dcshows.git/static/css/main.b366bc11.chunk.css",
-    "main.js": "/poozipotti/dcshows.git/static/js/main.1264faf8.chunk.js",
-    "main.js.map": "/poozipotti/dcshows.git/static/js/main.1264faf8.chunk.js.map",
-    "runtime-main.js": "/poozipotti/dcshows.git/static/js/runtime-main.6483b496.js",
-    "runtime-main.js.map": "/poozipotti/dcshows.git/static/js/runtime-main.6483b496.js.map",
-    "static/js/2.625f8f6e.chunk.js": "/poozipotti/dcshows.git/static/js/2.625f8f6e.chunk.js",
-    "static/js/2.625f8f6e.chunk.js.map": "/poozipotti/dcshows.git/static/js/2.625f8f6e.chunk.js.map",
-    "index.html": "/poozipotti/dcshows.git/index.html",
-    "precache-manifest.7ec6e44486f812379f258cf5a9416795.js": "/poozipotti/dcshows.git/precache-manifest.7ec6e44486f812379f258cf5a9416795.js",
-    "service-worker.js": "/poozipotti/dcshows.git/service-worker.js",
-    "static/css/main.b366bc11.chunk.css.map": "/poozipotti/dcshows.git/static/css/main.b366bc11.chunk.css.map"
+    "main.css": "/dcshows/static/css/main.b366bc11.chunk.css",
+    "main.js": "/dcshows/static/js/main.ef5875b7.chunk.js",
+    "main.js.map": "/dcshows/static/js/main.ef5875b7.chunk.js.map",
+    "runtime-main.js": "/dcshows/static/js/runtime-main.a764ab05.js",
+    "runtime-main.js.map": "/dcshows/static/js/runtime-main.a764ab05.js.map",
+    "static/js/2.625f8f6e.chunk.js": "/dcshows/static/js/2.625f8f6e.chunk.js",
+    "static/js/2.625f8f6e.chunk.js.map": "/dcshows/static/js/2.625f8f6e.chunk.js.map",
+    "index.html": "/dcshows/index.html",
+    "precache-manifest.5c37727c6a66bd6bcd68090e34acedde.js": "/dcshows/precache-manifest.5c37727c6a66bd6bcd68090e34acedde.js",
+    "service-worker.js": "/dcshows/service-worker.js",
+    "static/css/main.b366bc11.chunk.css.map": "/dcshows/static/css/main.b366bc11.chunk.css.map"
   }
 }
