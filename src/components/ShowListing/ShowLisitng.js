@@ -1,4 +1,5 @@
 import React from "react";
+import './ShowListing.css'
 
 class ShowListing extends React.Component {
   render() {

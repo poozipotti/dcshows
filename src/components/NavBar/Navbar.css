@@ -8,7 +8,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width:100%;
-  height:120px;
+  height:200px;
 
 }
 .navbarTitle{
@@ -16,5 +16,9 @@
   width:100%;
 }
 .initialBuffer{
-  height: 120px;
+  height: 200px;
+}
+.playButton{
+  margin-top:10px;
+  width:100%;
 }
