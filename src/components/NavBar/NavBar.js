@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import TimeFilter from "../../containers/TimeFilter";
 
-function App() {
+const Navbar =  () => {
   return (
     <div>
       <div className="Navbar">
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Navbar;

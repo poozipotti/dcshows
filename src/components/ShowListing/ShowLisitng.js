@@ -1,20 +1,18 @@
 import React from "react";
 import './ShowListing.css'
 
-class ShowListing extends React.Component {
-  render() {
+const ShowListing = props => {
     return (
-      <div onClick={this.props.onClick} style={{color: this.props.tracked ? 'gold':'white'}} className='ShowListing'>
-          <h2>{this.props.headliner}</h2>
-          <p>{this.props.otherBands}</p>
-          <p>{this.props.month}/{this.props.day}</p>
-          <p>{this.props.location}</p>
+      <div onClick={props.onClick} style={{color: props.tracked ? 'gold':'white'}} className='ShowListing'>
+          <h2>{props.headliner}</h2>
+          <p>{props.otherBands}</p>
+          <p>{props.month}/{props.day}</p>
+          <p>{props.location}</p>
           <p>
-            {this.props.description}
+            {props.description}
           </p>
       </div>
     );
-  }
 }
 
 export default ShowListing;
