@@ -12,7 +12,7 @@ const ShowList = props => {
           return <ShowListing
             key={show.headliner}
             {...show}
-            onClick={() => props.onClick(show.headliner)}
+            onClick={() => props.onClick(show.headliner,show.tracked)}
           />;
         })}
     </div>

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { toggleShow } from '../actions'
+import { requestToggleShow } from '../actions'
 import ShowList from '../components/ShowList/ShowList'
 
 
@@ -9,7 +9,7 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  onClick: headliner => dispatch(toggleShow(headliner))
+  onClick: (headliner,currentlyTracked) => dispatch(requestToggleShow(headliner,currentlyTracked))
 })
 
 export default connect(

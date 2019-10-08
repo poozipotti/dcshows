@@ -3,6 +3,11 @@ export const changeDate = date => ({
   date
 });
 
+export const requestToggleShow = (headliner,currentlyTracked) => ({
+  type: "REQUEST_TOGGLE_SHOW",
+  headliner,
+  currentlyTracked
+});
 export const toggleShow = headliner => ({
   type: "TOGGLE_SHOW",
   headliner
