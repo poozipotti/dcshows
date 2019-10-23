@@ -1,11 +1,25 @@
-const today = new Date();
+import { number } from "prop-types";
 
-const initialDates = {
+const today = new Date();
+interface date {
+  month: number;
+  year: number;
+}
+type nullableDate = dateState | null;
+interface dateState {
+  startDate: date,
+  endDate: date,
+  selectedDate: nullableDate
+}
+
+const initialDates: dateState = {
   startDate: { month: today.getMonth() + 1, year: today.getFullYear() },
-  endDate: { month: (today.getMonth() + 4) %12 , year: today.getFullYear() +parseInt((today.getMonth() + 4)/12)},
+  endDate: { 
+    month: (today.getMonth() + 4) % 12, 
+    year: today.getFullYear() + Math.floor((today.getMonth() + 4) / 12 )},
   selectedDate: null
 };
-const Months = (state = initialDates, action) => {
+const Months = (state = initialDates, action: any): dateState => {
   switch (action.type) {
     case "CHANGE_DATE":
       if (
